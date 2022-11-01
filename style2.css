@@ -1,0 +1,146 @@
+/*NAŠI PROJEKTI STYLE*/
+body, h1, h2, h3, h4, p, ul, li {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+p {
+	line-height: 1.30em;
+}
+#divSection1 {
+	padding: 10px 40px;
+	border-bottom: solid 6px #797979;
+    background: linear-gradient(87deg, rgb(14 13 13 / 55%) 0, rgb(14 13 13 / 90%) 100%) ;
+	background-size: cover;
+}
+#divHeadBarCol2 {
+	display: flex;
+   justify-content: space-between;
+}
+.headMenu {
+	list-style-type: none;
+	margin-top: 20px;
+}
+.headMenu li {
+	display: inline-block;
+}
+.headMenu li a {
+	color: #C69657;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 20px 40px;
+	font-size: 16px;
+	display: block;
+	text-transform: uppercase;
+	transition: all 0.60s linear;
+	border-radius: 80px;
+}
+.headMenu li a:hover {
+	cursor: pointer;
+	transform: translateY(-15px);
+	color: #DBDBDB;
+}
+/*ZAVRŠETAK HEDERA*/
+
+/*POČETAK PROJEKTA*/
+.usluge {
+   margin-top: 150px;
+   margin-left: 100px;
+}
+.usluge h3 {
+	font-size: 40px;
+	color: #DDB06F;
+}
+.usluge p {
+	font-size: 20px;
+	padding-top: 10px;
+	margin-top: 15px;
+	color: #535353;
+}
+.usluge1 {
+	margin-bottom: 200px;
+}
+
+.galerija {
+	list-style-type: none;
+}
+.galerija img:hover {
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+.galerija img {
+	clip-path: circle();
+}
+.projekti2 {
+	margin-bottom: 80px;
+	padding-left: 300px;
+	width: 1200px;
+}
+.galerija li {
+   display: inline-block;
+}
+.img1 {
+	margin-left: 100px;
+}
+.img2 {
+	margin-left: 120px;
+}
+.img3 {
+	margin-left: 130px;
+}
+.img7 {
+	margin-left: -10px;
+	margin-top: 40px;
+}
+.img4 {
+	margin-top: 10px;
+}
+.img5 {
+	margin-right: 20px;
+}
+.img6 {
+	margin-left: 10px;
+}
+.img8 {
+	margin-left: -40px;
+}
+.img9 {
+   margin-left: 30px;
+}
+/*POČETAK FOOTERA*/ 
+#footer {
+	background-color: #BFBFBF;
+	height: 80px;
+	scroll-behavior: smooth;
+	border: solid 1px #8E8E8E;
+	
+}
+.footer1 p {
+	font-size: 17px;
+	margin-left: 40px;
+	padding-top: 30px;
+	color: #3E3E3E;
+	font-family: Century Gothic;
+}
+.footer1 p span {
+	color: #5F4519;
+	font-weight: bold;
+}
+.button {
+	position: fixed;
+	width: 40px;
+	height: 35px;
+	bottom: 25px;
+	right: 40px;
+	background-color: #C69657;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	opacity: 80%;
+}
+
+
+
